@@ -25,8 +25,7 @@ const User = db.define('users', {
         allowNull: false,
         defaultValue: 'available'
     }
-},
-{ timestamps: false }
+}
 );
 
 module.exports = { User };

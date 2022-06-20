@@ -66,7 +66,7 @@ const App = () => {
 		});
 	};
 
-	// When component is mounted, fetch todos
+	// When component is mounted, fetch todo
 	useEffect(() => {
 		fetchTodos();
 	}, []);

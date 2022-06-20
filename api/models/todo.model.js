@@ -24,8 +24,7 @@ const Todo = db.define('todos', {
         allowNull: false,
         defaultValue: 'pending'
     }
-},
-{ timestamps: false }
+}
 );
 //Export model
 module.exports = { Todo };

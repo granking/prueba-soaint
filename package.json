@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start:api": "cd api && npm start",
-    "start:front": "cd front && npm start",
-    "start": "npm-run-all --parallel start:api start:front"
+    "start:frontend": "cd frontend && npm start",
+    "start": "npm-run-all --parallel start:api start:frontend"
   },
   "keywords": [],
   "author": "Elkin Rey",
